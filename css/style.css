@@ -17,10 +17,13 @@ body{
 	 /*position: relative;*/
 }
 .piano{
+	position: relative;
     margin: auto;
     padding: 0;
-    margin-top: 19%;
-    width: 700px;
+    width: 700px;  
+}
+.piano.outside{
+	overflow: hidden;
 }
 .piano li{
 	display: inline-block;
@@ -66,3 +69,74 @@ body{
 	background-image: -o-linear-gradient(top,#000 88%, #747474);
 	background-image: linear-gradient(top,#000 88%, #747474);
 }
+.slider{
+	position: relative;
+	cursor: pointer;
+	height: 250px;
+	background-color: #F4F4F4;
+	opacity: .5;
+	width: 35px;  
+}
+.slider:hover{
+	opacity: .4;
+	transition: all .5s;
+}
+.slider.right{
+
+	border-radius: 0 5px 5px 5px;
+}
+.slider.left{
+
+	border-radius: 5px 0 5px 5px;
+}
+.fa{
+	position: absolute;
+	color: #E8BF77;
+    left: 10px;
+    top: 110px;
+}
+.piano.inside{
+	
+	position: absolute;
+    left: 700px;
+    top: 0px;
+}
+.first{
+	float: left;
+	position: relative;
+}
+.second{
+	float: left;
+	position: relative;
+}
+.show{
+	display: block;
+}
+.arrows{
+	margin: auto;
+	margin-top: 10%;
+	padding: 0;
+	width: 770px;
+}
+.arrows li{
+	display: inline-block;
+}
+.slider li{
+	margin-top: -5px;
+}
+.small{
+	position: absolute;
+    left: -348px;
+} 
+.small li:first-child{
+	background-color: red;
+} 
+.first li:first-child{
+	background-color: yellow;
+}   
+.second li:first-child{
+	background-color: green;
+} 
+.inside li:first-child{
+	background-color: purple;
+} 
