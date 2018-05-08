@@ -126,7 +126,7 @@ body{
 }
 .small{
 	position: absolute;
-    left: -348px;
+    left: -350px;
 } 
 .small li:first-child{
 	background-color: red;
