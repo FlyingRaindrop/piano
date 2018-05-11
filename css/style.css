@@ -95,8 +95,7 @@ body{
     left: 10px;
     top: 110px;
 }
-.piano.inside{
-	
+.third{	
 	position: absolute;
     left: 700px;
     top: 0px;
@@ -137,6 +136,6 @@ body{
 .second li:first-child{
 	background-color: green;
 } 
-.inside li:first-child{
+.third li:first-child{
 	background-color: purple;
 } 
