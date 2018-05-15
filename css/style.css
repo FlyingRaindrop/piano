@@ -46,8 +46,10 @@ body{
 	height: 255px;*/
 	border-left: 2px solid #000;
 	border-right: 2px solid #000;
-	transition: border-left 1s,
-				border-right 1s;
+}
+.keyPress{
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
 }
 .black{
 	cursor: pointer;
